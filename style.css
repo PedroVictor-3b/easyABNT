@@ -48,7 +48,7 @@ body{
     padding-top: 20px;
 }
 
-.form{
+#form{
     display: flex;
     justify-content: center;
     align-items: center;
