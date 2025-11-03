@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>easyABNT</title>
+</head>
+<body>
+    <header id="header">
+        <img src="images/logo_branca-removebg-preview.2png.png" alt="">
+        <p>easyABNT</p>
+    </header>
+
+    <section id="section-1">
+        
+        <p>Digite o título, ISBN ou DOI que deseja referenciar</p>
+
+        <form class="form" action="http://localhost:5000/pesquisar" method="POST">
+            <input type="text" name="consulta" placeholder="Digite aqui..." required>
+            <button type="submit">Pesquisar</button>
+        </form>
+
+    </section>
+
+</body>
+</html>
