@@ -10,12 +10,12 @@
 <body>
     <header id="header">
         <img src="images/logo_branca-removebg-preview.2png.png" alt="">
-        <p>easyABNT</p>
+        <p style="font-family: roboto;">easyABNT</p>
     </header>
 
     <section id="section-1">
         
-        <p>Digite o título, ISBN ou DOI que deseja referenciar</p>
+        <p>Digite o título, DOI ou ISBN que deseja referenciar</p>
 
         <form id="form" action="http://localhost:5000/pesquisar" method="POST">
             <input type="text" name="consulta" placeholder="Digite aqui..." required>
@@ -24,5 +24,20 @@
 
     </section>
 
+    <section id="section-2">
+
+        <div id="info">
+            <h2>O que é DOI e ISBN?</h2>
+            <p>O DOI é a sigla para Digital Object Identifier, ou Identificador de Objeto Digital. Trata-se portanto, de um código alfanumérico exclusivo atribuído a documentos <strong>digitais</strong>  , como artigos científicos, teses, dissertações, e-books, entre outros. </p>
+            <img src="images/doi.png" alt="">
+            <p>Já ISBN (International Standard Book Number/Padrão Internacional de Numeração de Livro) é um padrão numérico criado com o objetivo de fornecer uma espécie de “RG” para publicações monográficas, como livros, artigos e apostilas.</p>
+            <img style="height: 200px;" src="images/ISBN.png" alt="">
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <p>© 2024 easyABNT. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
